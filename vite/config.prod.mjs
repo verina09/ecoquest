@@ -17,7 +17,7 @@ const phasermsg = () => {
 }   
 
 export default defineConfig({
-    base: './',
+    base: '/ecoquest/',
     logLevel: 'warning',
     build: {
         rollupOptions: {

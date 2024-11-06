@@ -1,26 +1,29 @@
 {
-    "name": "template-vite",
-    "description": "A Phaser 3 template using Vite.",
+    "name": "Ecoquest Game",
+    "description": "Ecoquest Options Game made with Phaser",
     "version": "1.3.2",
     "type": "module",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/phaserjs/template-vite.git"
+        "url": "git+https://github.com/verina09/ecoquest.git"
     },
-    "author": "Phaser Studio <support@phaser.io> (https://phaser.io/)",
+    "author": "Verina Cristie",
     "license": "MIT",
     "licenseUrl": "http://www.opensource.org/licenses/mit-license.php",
     "bugs": {
         "url": "https://github.com/phaserjs/template-vite/issues"
     },
-    "homepage": "https://github.com/phaserjs/template-vite#readme",
+    "homepage": "https://verina09.github.io/ecoquest",
     "scripts": {
         "dev": "node log.js dev & vite --config vite/config.dev.mjs",
         "build": "node log.js build & vite build --config vite/config.prod.mjs",
         "dev-nolog": "vite --config vite/config.dev.mjs",
-        "build-nolog": "vite build --config vite/config.prod.mjs"
+        "build-nolog": "vite build --config vite/config.prod.mjs",
+        "predeploy" : "npm run build",
+        "deploy" : "main -d dist"
     },
     "devDependencies": {
+        "gh-pages": "^6.2.0",
         "terser": "^5.31.0",
         "vite": "^5.3.1"
     },
