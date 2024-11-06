@@ -20,7 +20,7 @@
         "dev-nolog": "vite --config vite/config.dev.mjs",
         "build-nolog": "vite build --config vite/config.prod.mjs",
         "predeploy" : "npm run build",
-        "deploy" : "main -d dist"
+        "deploy" : "gh-pages -d dist"
     },
     "devDependencies": {
         "gh-pages": "^6.2.0",
