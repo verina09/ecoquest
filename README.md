@@ -35,4 +35,9 @@ We have provided a default project structure to get you started. This is as foll
 - `public/assets` - Contains the static assets used by the game.
 
 ## Screenshots
-![screenshot](screenshot.png)
+![login screen](ss1.png)
+![main page](ss2.png)
+![options](ss3.png)
+![victory](ss4.png)
+
+##### Icons are taken from http://freepik.com/
